@@ -1,0 +1,222 @@
+body{
+    transition: 0.5sec;
+}
+
+.main{
+    margin: auto;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    background-color: pink;
+    height: 150px;
+    width: 300px;
+}
+
+.color-name{
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.click{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button{
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: aqua;
+    border: 0.2px solid rgb(75, 210, 210);
+    box-shadow: 2px 2px 3px 3px rgb(136, 195, 195);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 412px) and (min-width: 360px){
+
+    .main{
+        margin: auto;
+        position: absolute;
+        top: 40%;
+        left: 17%;
+        background-color: pink;
+        height: 150px;
+        width: 250px;
+    }
+    
+    .color-name{
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .click{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    
+    button{
+        height: 30px;
+        width: 90px;
+        border-radius: 5px;
+        background-color: aqua;
+        border: 0.2px solid rgb(75, 210, 210);
+        box-shadow: 2px 2px 3px 3px rgb(136, 195, 195);
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (min-width: 540px){
+    .main{
+        margin: auto;
+        position: absolute;
+        top: 40%;
+        left: 23%;
+        background-color: pink;
+        height: 150px;
+        width: 300px;
+    }
+    
+    .color-name{
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .click{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    
+    button{
+        height: 30px;
+        width: 90px;
+        border-radius: 5px;
+        background-color: aqua;
+        border: 0.2px solid rgb(75, 210, 210);
+        box-shadow: 2px 2px 3px 3px rgb(136, 195, 195);
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 820px) and (min-width: 768px){
+    .main{
+        margin: auto;
+        position: absolute;
+        top: 40%;
+        left: 18%;
+        background-color: pink;
+        height: 200px;
+        width: 500px;
+    }
+    
+    .color-name{
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .click{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    button{
+        height: 40px;
+        width: 150px;
+        border-radius: 5px;
+        background-color: aqua;
+        border: 0.2px solid rgb(75, 210, 210);
+        box-shadow: 2px 2px 3px 3px rgb(136, 195, 195);
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 912px){
+    .main{
+        margin: auto;
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        background-color: pink;
+        height: 200px;
+        width: 550px;
+    }
+    
+    .color-name{
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .click{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    button{
+        font-size: 20px;
+        height: 40px;
+        width: 150px;
+        border-radius: 5px;
+        background-color: aqua;
+        border: 0.2px solid rgb(75, 210, 210);
+        box-shadow: 2px 2px 3px 3px rgb(136, 195, 195);
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .main{
+        margin: auto;
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        background-color: pink;
+        height: 200px;
+        width: 550px;
+    }
+    
+    .color-name{
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .click{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    button{
+        font-size: 20px;
+        height: 40px;
+        width: 150px;
+        border-radius: 5px;
+        background-color: aqua;
+        border: 0.2px solid rgb(75, 210, 210);
+        box-shadow: 2px 2px 3px 3px rgb(136, 195, 195);
+        cursor: pointer;
+    }
+}
+
